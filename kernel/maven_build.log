@@ -1,0 +1,668 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Sakai Kernel                                                       [pom]
+[[1;34mINFO[m] Sakai Component Manager                                            [jar]
+[[1;34mINFO[m] Sakai Kernel API                                                   [jar]
+[[1;34mINFO[m] Sakai Kernel Util                                                  [jar]
+[[1;34mINFO[m] Sakai Kernel Storage Util                                          [jar]
+[[1;34mINFO[m] Sakai Kernel Test                                                  [jar]
+[[1;34mINFO[m] Sakai Core Kernel Implementation                       [sakai-component]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.sakaiproject:kernel[0;1m >-----------------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel 25-SNAPSHOT                                  [1/7][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.3.2:clean[m [1m(default-clean)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-maven)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-versions)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.version.RequireMavenVersion passed
+[[1;34mINFO[m] Rule 1: org.apache.maven.enforcer.rules.version.RequireJavaVersion passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(no-duplicate-declared-dependencies)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.BanDuplicatePomDependencyVersions passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-banned-dependencies)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.3.0:jar-no-fork[m [1m(attach-sources)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.1:install[m [1m(default-install)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/25-SNAPSHOT/kernel-25-SNAPSHOT.pom
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36mkernel[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.plugins.enforcer.BanCircularDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------< [0;36morg.sakaiproject.kernel:sakai-component-manager[0;1m >-----------[m
+[[1;34mINFO[m] [1mBuilding Sakai Component Manager 25-SNAPSHOT                       [2/7][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.3.2:clean[m [1m(default-clean)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/sakaiGPI/kernel/component-manager/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-maven)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-versions)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(no-duplicate-declared-dependencies)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.BanDuplicatePomDependencyVersions passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-banned-dependencies)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource from src/main/java to target/classes
+[[1;34mINFO[m] Copying 3 resources from src/main/bundle to target/classes
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/component-manager/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/component-manager/src/main/sql
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/component-manager/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 37 source files with javac [debug target 11] to target/classes
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/component-manager/src/main/java/org/sakaiproject/component/api/ComponentManager.java:[119,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource from src/test/java to target/test-classes
+[[1;34mINFO[m] Copying 15 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 12 source files with javac [debug target 11] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.0:test[m [1m(default-test)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mComponentsLoaderTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.sakaiproject.util.Compiler (file:/home/alumno/sakaiGPI/kernel/component-manager/target/test-classes/) to method com.sun.tools.javac.api.JavacTool.getStandardFileManager(javax.tools.DiagnosticListener,java.util.Locale,java.nio.charset.Charset)
+WARNING: Please consider reporting this to the maintainers of org.sakaiproject.util.Compiler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.838 s - in org.sakaiproject.util.[1mComponentsLoaderTest[m
+[[1;34mINFO[m] Running org.sakaiproject.modi.[1mConfigurationTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.968 s - in org.sakaiproject.modi.[1mConfigurationTest[m
+[[1;34mINFO[m] Running org.sakaiproject.modi.[1mEnvironmentTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.76 s - in org.sakaiproject.modi.[1mEnvironmentTest[m
+[[1;34mINFO[m] Running org.sakaiproject.modi.[1mLauncherTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m15[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.322 s - in org.sakaiproject.modi.[1mLauncherTest[m
+[[1;34mINFO[m] Running org.sakaiproject.modi.[1mComponentLoadingTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m12[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.981 s - in org.sakaiproject.modi.[1mComponentLoadingTest[m
+[[1;34mINFO[m] Running org.sakaiproject.modi.[1mSakaiStartListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.731 s - in org.sakaiproject.modi.[1mSakaiStartListenerTest[m
+[[1;34mINFO[m] Running org.sakaiproject.modi.[1mSysPropTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.196 s - in org.sakaiproject.modi.[1mSysPropTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 73, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/component-manager/target/sakai-component-manager-25-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.3.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/component-manager/target/sakai-component-manager-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.1:install[m [1m(default-install)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/component-manager/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-component-manager/25-SNAPSHOT/sakai-component-manager-25-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/component-manager/target/sakai-component-manager-25-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-component-manager/25-SNAPSHOT/sakai-component-manager-25-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/component-manager/target/sakai-component-manager-25-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-component-manager/25-SNAPSHOT/sakai-component-manager-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-component-manager[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.plugins.enforcer.BanCircularDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------< [0;36morg.sakaiproject.kernel:sakai-kernel-api[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel API 25-SNAPSHOT                              [3/7][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.3.2:clean[m [1m(default-clean)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/sakaiGPI/kernel/api/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(no-duplicate-declared-dependencies)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.BanDuplicatePomDependencyVersions passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-banned-dependencies)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Copying 4 resources from src/main/java to target/classes
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/api/src/main/bundle
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/api/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/api/src/main/sql
+[[1;34mINFO[m] Copying 1 resource from src/main/config to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 426 source files with javac [debug target 11] to target/classes
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/entity/api/ResourceProperties.java:[316,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/Time.java:[32,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeBreakdown.java:[30,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/user/api/UserFactory.java:[38,10] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/site/api/Site.java:[407,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/GroupAwareEdit.java:[102,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/GroupAwareEdit.java:[110,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/GroupAwareEdit.java:[126,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/GroupAwareEdit.java:[134,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/GroupAwareEdit.java:[162,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentCollection.java:[71,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentCollection.java:[79,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/user/api/UserDirectoryService.java:[289,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/EditorConfiguration.java:[94,63] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Validator.java:[111,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Validator.java:[120,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Validator.java:[129,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Validator.java:[142,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Validator.java:[155,25] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Validator.java:[207,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Validator.java:[256,26] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Validator.java:[539,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Validator.java:[882,23] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/alias/api/Alias.java:[51,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/alias/api/Alias.java:[57,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/event/api/UsageSession.java:[41,28] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/event/api/UsageSession.java:[46,28] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/event/api/UsageSession.java:[57,28] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/event/api/UsageSession.java:[154,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/event/api/UsageSession.java:[162,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/tool/cover/ToolManager.java:[33,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[340,26] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[369,26] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[404,26] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[635,24] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[708,24] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[744,24] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[823,24] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[874,24] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[992,24] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[1059,24] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/api/ContentHostingService.java:[1278,15] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/memory/api/CacheRefresher.java:[61,18] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/memory/api/CacheRefresher.java:[46,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/id/cover/IdManager.java:[33,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/authz/api/SecurityService.java:[135,17] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/authz/api/SecurityService.java:[158,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/email/cover/EmailService.java:[33,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/email/api/EmailService.java:[160,20] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/email/api/Attachment.java:[82,8] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/email/api/Attachment.java:[106,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/entity/cover/EntityManager.java:[35,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/memory/api/MemoryService.java:[209,16] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/memory/api/MemoryService.java:[224,9] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/memory/api/MemoryService.java:[237,17] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/memory/api/MemoryService.java:[258,10] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/memory/api/MemoryService.java:[272,10] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/cover/ContentHostingService.java:[176,62] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/cover/ContentHostingService.java:[204,62] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/cover/ContentHostingService.java:[694,20] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/content/cover/ContentHostingService.java:[48,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/PathHashUtil.java:[35,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/event/cover/EventTrackingService.java:[33,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/StorageUser.java:[33,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/PasswordCheck.java:[265,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/PasswordCheck.java:[280,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/PasswordCheck.java:[42,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/memory/util/EhCacheManagerFactoryBean.java:[36,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/api/FormattedText.java:[66,18] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[62,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[75,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[90,25] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[102,25] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[118,25] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[132,25] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[151,25] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[174,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[336,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/Web.java:[529,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/user/cover/AuthenticationManager.java:[33,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/thread_local/cover/ThreadLocalManager.java:[33,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/tool/cover/SessionManager.java:[35,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/user/cover/PreferencesService.java:[35,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/cover/TimeService.java:[33,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[47,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[57,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[67,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[75,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[97,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[107,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[129,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[139,6] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[161,15] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[177,11] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[196,11] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[220,11] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[255,9] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/time/api/TimeService.java:[33,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/StringUtil.java:[43,24] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/api/src/main/java/org/sakaiproject/util/StringUtil.java:[209,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Copying 1 resource from src/test/java to target/test-classes
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/api/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 17 source files with javac [debug target 11] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.0:test[m [1m(default-test)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.sakaiproject.hibernate.[1mHibernateCriterionUtilsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 s - in org.sakaiproject.hibernate.[1mHibernateCriterionUtilsTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mRequestFilterTest[m
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/alumno/.m2/repository/org/powermock/powermock-reflect/2.0.9/powermock-reflect-2.0.9.jar) to method java.lang.Object.clone()
+WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.994 s - in org.sakaiproject.util.[1mRequestFilterTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mTimeSheetUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m3[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in org.sakaiproject.util.[1mTimeSheetUtilTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mEntityCollectionsTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.759 s - in org.sakaiproject.util.[1mEntityCollectionsTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mDateFormatterUtilTest[m
+[33m[WARN][m 1012 [main] org.sakaiproject.util.DateFormatterUtil:81 Error parsing the date null using the ISO_ZONED_DATE_TIME format
+[33m[WARN][m 1021 [main] org.sakaiproject.util.DateFormatterUtil:81 Error parsing the date 2017-12-31 23:34:00 using the ISO_ZONED_DATE_TIME format
+[33m[WARN][m 1022 [main] org.sakaiproject.util.DateFormatterUtil:81 Error parsing the date 2017-12-03T10:15:30+01:00[Mordor/Paris] using the ISO_ZONED_DATE_TIME format
+[33m[WARN][m 1022 [main] org.sakaiproject.util.DateFormatterUtil:81 Error parsing the date 2017-13-03T10:15:30+01:00[Europe/Paris] using the ISO_ZONED_DATE_TIME format
+[33m[WARN][m 1023 [main] org.sakaiproject.util.DateFormatterUtil:81 Error parsing the date 2017-12-33T10:15:30+01:00[Europe/Paris] using the ISO_ZONED_DATE_TIME format
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.749 s - in org.sakaiproject.util.[1mDateFormatterUtilTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mIPAddrUtilTest[m
+[32m[INFO][m 1121 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '1.2.3.4' is contained in whitelist ''
+[32m[INFO][m 1149 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '1.2.3.4' is contained in whitelist 'null'
+[32m[INFO][m 1150 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '10.0.3.1' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[32m[INFO][m 1158 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '172.25.3.250' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[32m[INFO][m 1159 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '192.168.4.10' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[32m[INFO][m 1159 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '127.0.0.1' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[32m[INFO][m 1160 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '11.0.3.1' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[32m[INFO][m 1160 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '172.32.0.0' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[32m[INFO][m 1161 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '192.169.0.1' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[32m[INFO][m 1161 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '128.3.2.1' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[32m[INFO][m 1161 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '301.3.2.1' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[33m[WARN][m 1162 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address '10.0.0.0/8' is not a valid CIDR format
+[33m[WARN][m 1163 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 172.16.0.0/12' is not a valid CIDR format
+[33m[WARN][m 1163 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 192.168.0.0/16 ' is not a valid CIDR format
+[33m[WARN][m 1163 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 198.51.100.0/24' is not a valid CIDR format
+[33m[WARN][m 1163 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 127.0.0.0/8' is not a valid CIDR format
+[32m[INFO][m 1164 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '10.0.3' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[33m[WARN][m 1165 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address '10.0.0.0/8' is not a valid CIDR format
+[33m[WARN][m 1165 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 172.16.0.0/12' is not a valid CIDR format
+[33m[WARN][m 1166 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 192.168.0.0/16 ' is not a valid CIDR format
+[33m[WARN][m 1166 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 198.51.100.0/24' is not a valid CIDR format
+[33m[WARN][m 1167 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 127.0.0.0/8' is not a valid CIDR format
+[32m[INFO][m 1167 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP 'address' is contained in whitelist '10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 , 198.51.100.0/24, 127.0.0.0/8'
+[33m[WARN][m 1168 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address '10.0.0.0/8' is not a valid CIDR format
+[33m[WARN][m 1168 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 172.16.0.0/12' is not a valid CIDR format
+[33m[WARN][m 1169 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 192.168.0.0/16 ' is not a valid CIDR format
+[33m[WARN][m 1169 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 198.51.100.0/24' is not a valid CIDR format
+[33m[WARN][m 1170 [main] org.sakaiproject.util.IPAddrUtil:70 IP network address ' 127.0.0.0/8' is not a valid CIDR format
+[32m[INFO][m 1170 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '10.0.0.1' is contained in whitelist '10.0.0.0/8,address,127.0.0.0/8'
+[32m[INFO][m 1170 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '10.0.0.1' is contained in whitelist '10.0.0.0:8,address,127.0.0.0/8'
+[32m[INFO][m 1170 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '10.0.0.33' is contained in whitelist '10.0.0.33,address,127.0.0.0/8'
+[32m[INFO][m 1171 [main] org.sakaiproject.util.IPAddrUtil:50 Checking login IP '10.0.0.32' is contained in whitelist '10.0.0.33,address,127.0.0.0/8'
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.886 s - in org.sakaiproject.util.[1mIPAddrUtilTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mToolListenerTest[m
+[32m[INFO][m 1843 [main] org.sakaiproject.util.ToolListener:124 registering tools from resource: /WEB-INF/tools/sakai-tool.xml
+[32m[INFO][m 1859 [main] org.sakaiproject.util.ToolListener:155 Added localization sakai-tool_fr.propertiesresources for sakai-tool
+[32m[INFO][m 1860 [main] org.sakaiproject.util.ToolListener:155 Added localization sakai-tool.propertiesresources for sakai-tool
+[32m[INFO][m 1925 [main] org.sakaiproject.util.ToolListener:124 registering tools from resource: /WEB-INF/tools/sakai-tool.xml
+[32m[INFO][m 1946 [main] org.sakaiproject.util.ToolListener:122 overriding tools configuration: registering tools from resource: /tmp/ToolListenerTest6415254390668857017/tools/sakai-tool.xml
+[32m[INFO][m 1947 [main] org.sakaiproject.util.ToolListener:122 overriding tools configuration: registering tools from resource: /tmp/ToolListenerTest6415254390668857017/WEB-INF/tools/other-tool.xml
+[33m[WARN][m 1956 [main] org.sakaiproject.util.ToolListener:134 No tools found to be registered.
+[32m[INFO][m 1959 [main] org.sakaiproject.util.ToolListener:124 registering tools from resource: /tools/sakai-tool.xml
+[32m[INFO][m 1963 [main] org.sakaiproject.util.ToolListener:124 registering tools from resource: /tools/sakai-tool.xml
+[32m[INFO][m 1965 [main] org.sakaiproject.util.ToolListener:155 Added localization sakai-tool.propertiesresources for sakai-tool
+[32m[INFO][m 1966 [main] org.sakaiproject.util.ToolListener:155 Added localization sakai-tool_fr.propertiesresources for sakai-tool
+[33m[WARN][m 1970 [main] org.sakaiproject.util.ToolListener:134 No tools found to be registered.
+[32m[INFO][m 1974 [main] org.sakaiproject.util.ToolListener:124 registering tools from resource: /WEB-INF/tools/another-tool.xml
+[32m[INFO][m 1974 [main] org.sakaiproject.util.ToolListener:124 registering tools from resource: /tools/sakai-tool.xml
+[32m[INFO][m 1975 [main] org.sakaiproject.util.ToolListener:124 registering tools from resource: /WEB-INF/tools/sakai-tool.xml
+[32m[INFO][m 1981 [main] org.sakaiproject.util.ToolListener:124 registering tools from resource: /custom/sakai-tool.xml
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.653 s - in org.sakaiproject.util.[1mToolListenerTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mTrustedLoginTokenTest[m
+[32m[INFO][m 1104 [main] org.sakaiproject.util.TrustedLoginTokenTest:57 Per call 0.021 ms
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.765 s - in org.sakaiproject.util.[1mTrustedLoginTokenTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mUTF8Test[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.769 s - in org.sakaiproject.util.[1mUTF8Test[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mWebTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.725 s - in org.sakaiproject.util.[1mWebTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.comparator.[1mUserSortNameComparatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.269 s - in org.sakaiproject.util.comparator.[1mUserSortNameComparatorTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.comparator.[1mAlphaNumericComparatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 s - in org.sakaiproject.util.comparator.[1mAlphaNumericComparatorTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.comparator.[1mGroupTitleComparatorTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.754 s - in org.sakaiproject.util.comparator.[1mGroupTitleComparatorTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mMapResourceBundleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 s - in org.sakaiproject.util.[1mMapResourceBundleTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mPasswordCheckTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m11[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.886 s - in org.sakaiproject.util.[1mPasswordCheckTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mServerCookieTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.784 s - in org.sakaiproject.util.[1mServerCookieTest[m
+[[1;34mINFO[m] Running org.sakaiproject.exception.[1mPermissionExceptionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s - in org.sakaiproject.exception.[1mPermissionExceptionTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 63, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/api/target/sakai-kernel-api-25-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.3.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/api/target/sakai-kernel-api-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.1:install[m [1m(default-install)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/api/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-api/25-SNAPSHOT/sakai-kernel-api-25-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/api/target/sakai-kernel-api-25-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-api/25-SNAPSHOT/sakai-kernel-api-25-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/api/target/sakai-kernel-api-25-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-api/25-SNAPSHOT/sakai-kernel-api-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-api[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.plugins.enforcer.BanCircularDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.sakaiproject.kernel:sakai-kernel-util[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel Util 25-SNAPSHOT                             [4/7][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.3.2:clean[m [1m(default-clean)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/sakaiGPI/kernel/kernel-util/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(no-duplicate-declared-dependencies)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.BanDuplicatePomDependencyVersions passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-banned-dependencies)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource from src/main/java to target/classes
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-util/src/main/bundle
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-util/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-util/src/main/sql
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-util/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 6 source files with javac [debug target 11] to target/classes
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-util/src/main/java/org/sakaiproject/util/ResourceLoader.java:[168,8] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-util/src/main/java/org/sakaiproject/content/util/ZipContentUtil.java:[230,16] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-util/src/main/java/org/sakaiproject/content/util/ZipContentUtil.java:[311,29] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource from src/test/java to target/test-classes
+[[1;34mINFO[m] Copying 1 resource from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 2 source files with javac [debug target 11] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.0:test[m [1m(default-test)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mNumberUtilTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.185 s - in org.sakaiproject.util.[1mNumberUtilTest[m
+[[1;34mINFO[m] Running org.sakaiproject.util.[1mZipContentUtilTest[m
+[[1;33mWARNING[m] [1;33mTests [0;1mrun: [0;1m4[m, Failures: 0, Errors: 0, [1;33mSkipped: [0;1;33m4[m, Time elapsed: 0.069 s - in org.sakaiproject.util.[1mZipContentUtilTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;33mWARNING[m] [1;33mTests run: 5, Failures: 0, Errors: 0, Skipped: 4[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/kernel-util/target/sakai-kernel-util-25-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.3.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/kernel-util/target/sakai-kernel-util-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.1:install[m [1m(default-install)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-util/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-util/25-SNAPSHOT/sakai-kernel-util-25-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-util/target/sakai-kernel-util-25-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-util/25-SNAPSHOT/sakai-kernel-util-25-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-util/target/sakai-kernel-util-25-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-util/25-SNAPSHOT/sakai-kernel-util-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-util[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.plugins.enforcer.BanCircularDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------< [0;36morg.sakaiproject.kernel:sakai-kernel-storage-util[0;1m >----------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel Storage Util 25-SNAPSHOT                     [5/7][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.3.2:clean[m [1m(default-clean)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/sakaiGPI/kernel/kernel-storage-util/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(no-duplicate-declared-dependencies)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.BanDuplicatePomDependencyVersions passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-banned-dependencies)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource from src/main/java to target/classes
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-storage-util/src/main/bundle
+[[1;34mINFO[m] Copying 2 resources from src/main/resources to target/classes
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-storage-util/src/main/sql
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-storage-util/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 43 source files with javac [debug target 11] to target/classes
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-storage-util/src/main/java/org/sakaiproject/util/conversion/CheckConnection.java:[40,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-storage-util/src/main/java/org/sakaiproject/util/PathHashUtil.java:[35,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-storage-util/src/main/java/org/sakaiproject/util/Blob.java:[55,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-storage-util/src/main/java/org/sakaiproject/util/BaseXmlFileStorage.java:[55,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-storage-util/src/test/java
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-storage-util/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.0:test[m [1m(default-test)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/kernel-storage-util/target/sakai-kernel-storage-util-25-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.3.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/kernel-storage-util/target/sakai-kernel-storage-util-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.1:install[m [1m(default-install)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-storage-util/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-storage-util/25-SNAPSHOT/sakai-kernel-storage-util-25-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-storage-util/target/sakai-kernel-storage-util-25-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-storage-util/25-SNAPSHOT/sakai-kernel-storage-util-25-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-storage-util/target/sakai-kernel-storage-util-25-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-storage-util/25-SNAPSHOT/sakai-kernel-storage-util-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-storage-util[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.plugins.enforcer.BanCircularDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.sakaiproject.kernel:sakai-kernel-test[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Kernel Test 25-SNAPSHOT                             [6/7][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.3.2:clean[m [1m(default-clean)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/sakaiGPI/kernel/kernel-test/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(no-duplicate-declared-dependencies)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.BanDuplicatePomDependencyVersions passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-banned-dependencies)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource from src/main/java to target/classes
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-test/src/main/bundle
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-test/src/main/resources
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-test/src/main/sql
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-test/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 2 source files with javac [debug target 11] to target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-test/src/test/java
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-test/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.0:test[m [1m(default-test)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.3.0:jar[m [1m(default-jar)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/kernel-test/target/sakai-kernel-test-25-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.3.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/kernel-test/target/sakai-kernel-test-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.1:install[m [1m(default-install)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-test/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-test/25-SNAPSHOT/sakai-kernel-test-25-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-test/target/sakai-kernel-test-25-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-test/25-SNAPSHOT/sakai-kernel-test-25-SNAPSHOT.jar
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-test/target/sakai-kernel-test-25-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-test/25-SNAPSHOT/sakai-kernel-test-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-test[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.plugins.enforcer.BanCircularDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36morg.sakaiproject.kernel:sakai-kernel-impl[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding Sakai Core Kernel Implementation 25-SNAPSHOT              [7/7][m
+[[1;34mINFO[m] [1m--------------------------[ sakai-component ]---------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.3.2:clean[m [1m(default-clean)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/alumno/sakaiGPI/kernel/kernel-impl/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-maven)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-versions)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(no-duplicate-declared-dependencies)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.BanDuplicatePomDependencyVersions passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-banned-dependencies)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.enforcer.rules.dependency.BannedDependencies passed
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:resources[m [1m(default-resources)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Copying 4 resources from src/main/java to target/classes
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/bundle
+[[1;34mINFO[m] Copying 3 resources from src/main/resources to target/classes
+[[1;34mINFO[m] Copying 48 resources from src/main/sql to target/classes
+[[1;34mINFO[m] skip non existing resourceDirectory /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/config
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 225 source files with javac [debug target 11] to target/classes
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/site/impl/SiteCacheImpl.java:[51,7] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/user/impl/AuthenticationCache.java:[162,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/user/impl/AuthenticationCache.java:[170,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/user/impl/AuthenticationCache.java:[180,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/serialize/impl/Type1BaseContentResourceSerializer.java:[117,13] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/serialize/impl/Type1BaseContentResourceSerializer.java:[206,15] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/SiteEmailNotificationContent.java:[134,8] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/BaseContentService.java:[4591,15] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/BaseContentService.java:[8412,27] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/DropboxNotification.java:[106,8] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/DropboxNotification.java:[399,52] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/DropboxNotification.java:[403,52] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/DropboxNotification.java:[418,56] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/DropboxNotification.java:[452,53] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/DropboxNotification.java:[512,4] non-varargs call of varargs method with inexact argument type for last parameter;
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/serialize/impl/Type1BaseContentCollectionSerializer.java:[115,14] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/content/impl/serialize/impl/Type1BaseContentCollectionSerializer.java:[197,16] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;33mWARNING[m] /home/alumno/sakaiGPI/kernel/kernel-impl/src/main/java/org/sakaiproject/component/impl/BasicConfigurationService.java:[914,22] [dep-ann] deprecated item is not annotated with @Deprecated
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.3.1:testResources[m [1m(default-testResources)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Copying 24 resources from src/main/webapp to target/test-classes
+[[1;34mINFO[m] Copying 49 resources from src/test/resources to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 116 source files with javac [debug target 11] to target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.1.0:test[m [1m(default-test)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msakai:1.4.5:component[m [1m(default-component)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Exploding webapp...
+[[1;34mINFO[m] Assembling webapp sakai-kernel-impl in /home/alumno/sakaiGPI/kernel/kernel-impl/target/sakai-kernel-impl-25-SNAPSHOT
+[[1;34mINFO[m] Copy webapp webResources to /home/alumno/sakaiGPI/kernel/kernel-impl/target/sakai-kernel-impl-25-SNAPSHOT
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/kernel-impl/target/sakai-kernel-impl-25-SNAPSHOT/WEB-INF/lib/sakai-kernel-impl-25-SNAPSHOT.jar
+[[1;34mINFO[m] Generating component /home/alumno/sakaiGPI/kernel/kernel-impl/target/sakai-kernel-impl-25-SNAPSHOT.war
+[[1;34mINFO[m] Building war: /home/alumno/sakaiGPI/kernel/kernel-impl/target/sakai-kernel-impl-25-SNAPSHOT.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-source-plugin:3.3.0:jar-no-fork[m [1m(attach-sources)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Building jar: /home/alumno/sakaiGPI/kernel/kernel-impl/target/sakai-kernel-impl-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:3.4.0:attach-artifact[m [1m(default)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-install-plugin:3.1.1:install[m [1m(default-install)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-impl/pom.xml to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-impl/25-SNAPSHOT/sakai-kernel-impl-25-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-impl/target/sakai-kernel-impl-25-SNAPSHOT.war to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-impl/25-SNAPSHOT/sakai-kernel-impl-25-SNAPSHOT.war
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-impl/target/sakai-kernel-impl-25-SNAPSHOT-sources.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-impl/25-SNAPSHOT/sakai-kernel-impl-25-SNAPSHOT-sources.jar
+[[1;34mINFO[m] Installing /home/alumno/sakaiGPI/kernel/kernel-impl/target/sakai-kernel-impl-25-SNAPSHOT/WEB-INF/lib/sakai-kernel-impl-25-SNAPSHOT.jar to /home/alumno/.m2/repository/org/sakaiproject/kernel/sakai-kernel-impl/25-SNAPSHOT/sakai-kernel-impl-25-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.3.0:enforce[m [1m(enforce-ban-circular-dependencies)[m @ [36msakai-kernel-impl[0;1m ---[m
+[[1;34mINFO[m] Rule 0: org.apache.maven.plugins.enforcer.BanCircularDependencies passed
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary for Sakai Kernel 25-SNAPSHOT:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Sakai Kernel ....................................... [1;32mSUCCESS[m [  0.811 s]
+[[1;34mINFO[m] Sakai Component Manager ............................ [1;32mSUCCESS[m [ 17.459 s]
+[[1;34mINFO[m] Sakai Kernel API ................................... [1;32mSUCCESS[m [ 27.476 s]
+[[1;34mINFO[m] Sakai Kernel Util .................................. [1;32mSUCCESS[m [  3.333 s]
+[[1;34mINFO[m] Sakai Kernel Storage Util .......................... [1;32mSUCCESS[m [  1.826 s]
+[[1;34mINFO[m] Sakai Kernel Test .................................. [1;32mSUCCESS[m [  0.838 s]
+[[1;34mINFO[m] Sakai Core Kernel Implementation ................... [1;32mSUCCESS[m [ 14.468 s]
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  01:07 min
+[[1;34mINFO[m] Finished at: 2024-03-22T20:24:35+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
